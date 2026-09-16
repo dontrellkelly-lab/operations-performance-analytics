@@ -1,0 +1,35 @@
+{
+  "data_type": "synthetic demonstration",
+  "source_rows": 44772,
+  "accepted_rows": 43409,
+  "quarantined_rows": 1363,
+  "expected_location_days": 45000,
+  "unavailable_location_days": 1591,
+  "missing_day_reasons": {
+    "REJECTED_SOURCE": 873,
+    "NO_SOURCE_ROW": 718
+  },
+  "locations": 250,
+  "calendar_start": "2025-01-01",
+  "calendar_end": "2025-06-29",
+  "rule_hits": {
+    "DUPLICATE_KEY": 760,
+    "INVALID_GROSS_CENTS": 131,
+    "INVALID_LABOR_MINUTES": 148,
+    "ON_TIME_EXCEEDS_COMPLETED": 140,
+    "REFUND_EXCEEDS_GROSS": 129,
+    "UNEXPECTED_LOCATION_DATE": 155,
+    "UNKNOWN_LOCATION": 155
+  },
+  "location_review_status": {
+    "CHECK_DATA": 69,
+    "REVIEW_SERVICE": 1,
+    "MONITOR": 180
+  },
+  "source_sha256": {
+    "daily_operations.csv": "d38dc922676e77b4348468271b51e6dad4e6ef873376d4797c9cc791f80ad242",
+    "expected_days.csv": "84e9599fcc8bcc7ce2af5c8197d941572e4fb5068027c1d3be2cf5e7fbdf9d7e",
+    "locations.csv": "ee47bec9b264f85a15df7d86e18fe38aff6a69c95f5cbbca9ef59584aee95f16"
+  },
+  "runtime_seconds": 0.894
+}
